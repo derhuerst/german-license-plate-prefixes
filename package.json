@@ -1,0 +1,12 @@
+{
+	"name":         "german-license-plate-prefixes",
+	"description":  "German local license prefixes, from 0 to ZZ.",
+	"version":      "0.1.0",
+	"main":         "./index.json",
+	"files":        ["./index.json"],
+	"keywords":     ["german", "license", "plate", "prefix", "landkreis", "kennzeichen", "unterscheidungszeichen"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/german-license-plate-prefixes",
+	"repository":   "git://github.com/derhuerst/german-license-plate-prefixes.git",
+	"license":      "ISC"
+}
