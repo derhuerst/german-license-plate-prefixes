@@ -15,6 +15,7 @@
 	},
 	"scripts": {
 		"build":         "./build.js",
-		"prepublish":    "npm run build"
+		"test":          "node -e \"require('./index.json')\"",
+		"prepublish":    "npm run build && npm test"
 	}
 }
