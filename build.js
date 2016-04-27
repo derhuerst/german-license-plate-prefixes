@@ -7,14 +7,12 @@ const fs       = require('fs')
 
 
 
-const source = 'https://raw.githubusercontent.com/DaHoC/kennzeichenAndroid/4b24d99c1b1477a6d7cc2ca4e4aa9a913fe9d921/res/raw/kfzliste'
+const source = 'http://berlin.de/daten/liste-der-kfz-kennzeichen/kfz-kennz-d.csv'
 const data = {}
 
 download.stream(source)
-.pipe(parser({delimiter: ';'}))
-.on('data', (entry, _, cb) => {
-	data[entry[0]] = entry[1]
-})
+.pipe(parser({columns: () => ['id', 'name', '_']}))
+.on('data', (entry) => {data[entry.id] = entry.name})
 .on('end', _ => {
 	let file = fs.createWriteStream('./index.json')
 	file.on('finish', _ => console.log('Done.'))
