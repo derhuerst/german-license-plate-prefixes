@@ -1,7 +1,7 @@
 {
 	"name":         "german-license-plate-prefixes",
 	"description":  "German local license plate prefixes, from 0 to ZZ.",
-	"version":      "0.1.0",
+	"version":      "1.0.0",
 	"main":         "./index.json",
 	"files":        ["./index.json"],
 	"keywords":     ["german", "license", "plate", "prefix", "landkreis", "kennzeichen", "unterscheidungszeichen"],
