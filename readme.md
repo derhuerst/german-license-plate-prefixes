@@ -4,9 +4,8 @@
 
 [![npm version](https://img.shields.io/npm/v/german-license-plate-prefixes.svg)](https://www.npmjs.com/package/german-license-plate-prefixes)
 [![build status](https://img.shields.io/travis/derhuerst/german-license-plate-prefixes.svg)](https://travis-ci.org/derhuerst/german-license-plate-prefixes)
-[![dependency status](https://img.shields.io/david/derhuerst/german-license-plate-prefixes.svg)](https://david-dm.org/derhuerst/german-license-plate-prefixes)
-[![dev dependency status](https://img.shields.io/david/dev/derhuerst/german-license-plate-prefixes.svg)](https://david-dm.org/derhuerst/german-license-plate-prefixes#info=devDependencies)
-![CC-licensed](https://img.shields.io/github/license/derhuerst/german-license-plate-prefixes.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 The data is **[CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/)-licensed**, [published by *Senatsverwaltung für Wirtschaft, Technologie und Forschung*](http://daten.berlin.de/datensaetze/kfz-kennzeichen-deutschland).
 
