@@ -10,7 +10,7 @@
 	"repository":   "git://github.com/derhuerst/german-license-plate-prefixes.git",
 	"license":      "CC-BY-3.0",
 	"devDependencies": {
-		"got":       "^8.0.0",
+		"got":       "^9.0.0",
 		"csv-parser": "^1.11"
 	},
 	"scripts": {
