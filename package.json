@@ -23,7 +23,7 @@
 		"node": ">=6"
 	},
 	"devDependencies": {
-		"csv-parser": "^1.11",
+		"csv-parser": "^2.0.0",
 		"got": "^9.0.0"
 	},
 	"scripts": {
