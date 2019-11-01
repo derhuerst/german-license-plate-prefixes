@@ -1,5 +1,19 @@
-sudo: false
 language: node_js
 node_js:
   - 'stable'
+  - 'lts/*'
   - '8'
+script:
+  - npm run build
+  - npm test
+before_deploy:
+  - ls -lh index.json
+  - npm version --no-git-tag-version --force --allow-same-version $(npx semver -- -i minor $(npm info german-license-plate-prefixes version))
+deploy:
+  provider: npm
+  on:
+    branch: master
+    node: stable
+  email: 'mail@jannisr.de'
+  api_key: ${NPM_TOKEN}
+  skip_cleanup: true

@@ -1,10 +1,10 @@
 {
 	"name": "german-license-plate-prefixes",
 	"description": "German local license plate prefixes, from 0 to ZZ.",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"main": "./index.json",
 	"files": [
-		"./index.json"
+		"index.json"
 	],
 	"keywords": [
 		"german",
@@ -20,7 +20,7 @@
 	"repository": "git://github.com/derhuerst/german-license-plate-prefixes.git",
 	"license": "CC-BY-3.0",
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	},
 	"devDependencies": {
 		"csv-parser": "^2.0.0",
