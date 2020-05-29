@@ -23,8 +23,7 @@
 		"node": ">=8"
 	},
 	"devDependencies": {
-		"csv-parser": "^2.0.0",
-		"got": "^9.0.0"
+		"csv-parser": "^2.0.0"
 	},
 	"scripts": {
 		"build": "./build.js",
